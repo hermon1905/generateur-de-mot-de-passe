@@ -5,7 +5,8 @@ import streamlit as st
 # --------------------------configuration de la page streamlit -------------------------
 st.set_page_config(
     page_title="Generateur de mot de passe",
-    page_icon="🌀"
+    page_icon="🌀",
+    layout="wide"
 )
 
 chiffres = string.digits # les chiffres de 0 à 9
